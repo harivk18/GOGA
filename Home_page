@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goga</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./js/bootstrap.min.js">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: black;">
+  <div class="bg-image pb-5  ">
+    <nav class="navbar navbar-expand-lg navbar-dark text-white">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img class="image-fluid mt-4" src="logo.png" style="width: 200px; height: 50px;"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#about">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#freecoins">Free Coins</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#goganomics">Goganomics</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#roadmaps">Roadmaps</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#faq">FAQs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#contact">Contact us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="bg-black text-light p-5">
+      <div class="container">
+        <h1 class="welcome h3 mt-5" style="color: #00FF5C;">
+          Welcome !
+        </h1>
+        <h1 class="never text-light mt-4 display-5 fw-bold" style="opacity: 30%;">
+          To The World You've Never Seen Before
+        </h1>
+       <h1 class="lead display-6 fs-2 fw-bold">AI-integrated Virtual Reality <br> Meta Spaces</h1>
+      </div>
+    </section>
+  </div>
+  <section class="featured mt-5">
+    <div class="container-fluid">
+      <div class=" row justify-content-start ms-5">
+        <div class="col-lg-2 text-light" style="width: 150px;height: 70px;">
+          <p class="lead display-6 fs-2 mb-5" style="font-family: Barlow-Black;"> Featured <br>On</p>
+        </div>
+        <div class="col-lg-2">
+          <img src="Benzinga-Logo.png" class="mx-2 px-1 bg-light rounded border border-1" style="width: 180px;height: 70px;">
+        </div>
+        <div class="col-lg-2">
+          <img src="cryoto.png" class="mx-2 px-1 bg-light rounded border border-1" style="width: 180px;height: 70px;">
+        </div>
+        <div class="col-lg-2">
+          <img src="coin.png" class="mx-2 px-1 bg-light rounded border border-1" style="width: 180px;height: 70px;">
+        </div>
+        <div class="col-lg-2">
+          <img src="captain.png" class="mx-2 px-1 bg-light rounded border border-1" style="width: 180px;height: 70px;">
+        </div>
+        <div class="col-lg-2">
+          <img src="politan.png" class="mx-2 px-1 bg-light rounded border border-1" style="width: 180px;height: 70px;">
+        </div>
+      </div>
+    </div>
+  </section>  
+  <div class="dotted mt-4" style="width: 180px;"></div>
+
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <img src="about.png" class="mt-5" style="width: 433px; height: 450px;">
+        </div>
+        <div class="col-8 mt-5 text-light">
+          <h1 class="h2 text-light mt-5 ms-5" style="font-family: Barlow-Black;"> About GOGA</h1>
+          <div class="dotted mt-4 ms-5 me-0" style="width: 760px;"></div>
+          <p class="display-6 fs-3 ms-5 mt-4">GOGA Metaverse -Explanation Video</p>
+          <p class="display-6 fs-3 ms-5 mt-4">WHAT'S GOGA?</p>
+          <p class="ms-5" style="opacity: 50%;">We are thrilled to introduce the world’s pioneering Meta classroom, a revolutionary addition to the ever-evolving realm of the Metaverse. This unique space is dedicated to bringing individuals together for both learning and entertainment, transcending geographical boundaries and financial constraints. With Meta Classroom, we foster a global community where people from different corners of the world unite to share in the richness of diverse experiences.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  </body>
+</html>
